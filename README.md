@@ -31,9 +31,9 @@ Two datasets were used in this analysis.
 1. World Population Data available on [DropBox](https://www.dropbox.com/s/5u7sy1xt7g0oi2c/WPDS_2018_data.csv?dl=0).
 
 | Column Name | Data Type |
-|:-----------:|-----------|
-|Geography    |String     |
-Population mid-2018 (millions)
+| --- | --- |
+| Geography | String |
+| Population mid-2018 (millions) | String |
 
 ## Licensing
 

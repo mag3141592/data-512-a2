@@ -67,6 +67,6 @@ After merging together the population data, Wikipedia page data, and the predict
 ## Reproducibility
 This work is aimed at being reproducible, however due to data licensing and changes in page quality (from ORES's output) exact values may differ.  In order to fully reproduce the embedded figures, you'll be to import the merge dataset I created and preform the steps after it. The merged dataset was created with the data available on 10/31/2018.
 
-## Results and Reflection
+## Reflection
 
 

@@ -21,23 +21,39 @@ Then I reported on reflected on the highest and lowest ranked countries for each
 
 ## Directory
 > data-512-a2/
->> data/... >> Contains the outputted final merged dataset (population and page)
->> LICENSE >> A standard MIT license. 
->> README.md >> What you're currently reading. 
->> hcds-a2-bias.ipnb >> The source code. 
+
+| --- | --- |
+| data/... | Contains the outputted final merged dataset. |
+| LICENSE | A standard MIT license. |
+| README.md | What you're currently reading. |
+| hcds-a2-bias.ipynb | The source code. |
 
 ## Data Acquistion
 Two datasets were used in this analysis.
 1. World Population Data available on [DropBox](https://www.dropbox.com/s/5u7sy1xt7g0oi2c/WPDS_2018_data.csv?dl=0).
 
-| Column Name | Data Type |
+| Column Name | Datatype |
 | --- | --- |
 | Geography | String |
 | Population mid-2018 (millions) | String |
 
+2. Wikipedia's Political Articles data available on [Figshare](https://figshare.com/articles/Untitled_Item/5513449).
+
+| Column Name | Datatype |
+| --- | --- |
+| Page | String |
+| Country | String |
+| Rev_id | Integer|
+
 ## Licensing
+The source datasets are not included in this repository due to the following licensing and copyright concerns.
+1. The World Population dataset does not provide explicit licensing information, so it falls under DropBox's [copyright policy](https://www.dropbox.com/terms2016).
+2. The Wikipedia page dataset on Figshare is licensed under CC-BY-SA 4.0.
+
+The code in this repository is licensed under a [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Output
+
 
 ## Reproducibility
 

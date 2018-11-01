@@ -28,7 +28,8 @@ Then I reported on reflected on the highest and lowest ranked countries for each
 
 ## Data Acquistion
 Two datasets were used in this analysis.
-1. World Population Data available on [DropBox](https://www.dropbox.com/s/5u7sy1xt7g0oi2c/WPDS_2018_data.csv?dl=0)
+1. World Population Data available on [DropBox](https://www.dropbox.com/s/5u7sy1xt7g0oi2c/WPDS_2018_data.csv?dl=0).
+
 | Column Name | Data Type |
 |:-----------:|-----------|
 |Geography    |String     |

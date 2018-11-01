@@ -33,18 +33,18 @@ Then I reported on reflected on the highest and lowest ranked countries for each
 Two datasets were used in this analysis.
 1. World Population Data available on [DropBox](https://www.dropbox.com/s/5u7sy1xt7g0oi2c/WPDS_2018_data.csv?dl=0).
 
-| Column Name | Datatype |
+| Column | Datatype |
 | --- | --- |
 | Geography | String |
 | Population mid-2018 (millions) | String |
 
 2. Wikipedia's Political Articles data available on [Figshare](https://figshare.com/articles/Untitled_Item/5513449).
 
-| Column Name | Datatype |
+| Column | Datatype |
 | --- | --- |
-| Page | String |
-| Country | String |
-| Rev_id | Integer|
+| page | String |
+| country | String |
+| rev_id | Integer|
 
 ## Licensing
 The source datasets are not included in this repository due to the following licensing and copyright concerns.
@@ -54,9 +54,18 @@ The source datasets are not included in this repository due to the following lic
 The code in this repository is licensed under a [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Output
+After merging together the population data, Wikipedia page data, and the predicted page qualities I outputted this [dataset]().
 
+| Column | Datatype |
+| --- | --- |
+| country | String |
+| article_name | String |
+| revision_id | Integer|
+| article_quality | String |
+| population | Integer|
 
 ## Reproducibility
+This work is aimed at being reproducible, however due to data licensing and changes in page quality (from ORES's output) exact values may differ.  In order to fully reproduce the embedded figures, you'll be to import the merge dataset I created and preform the steps after it. The merged dataset was created with the data available on 10/31/2018.
 
 ## Results and Reflection
 

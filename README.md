@@ -22,6 +22,7 @@ Then I reported on reflected on the highest and lowest ranked countries for each
 ## Directory
 > data-512-a2/
 
+| Filename | Purpose |
 | --- | --- |
 | data/... | Contains the outputted final merged dataset. |
 | LICENSE | A standard MIT license. |
